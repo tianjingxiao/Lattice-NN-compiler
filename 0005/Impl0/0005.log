@@ -1,0 +1,214 @@
+INFO    : 
+LSC_ML_COMPL - A Compiler for Deep Neural Network Inference
+Copyright(c) 2017-2021 Lattice Semiconductor Corporation
+Version: V4.0
+Build: 2021-05-13
+
+
+INFO    : Started analysis of input network D:/SDSU/NN Compiler/Lattice NN Compiler Files/BNN_Compiler_Scripts/examples/facedetS_bbn/train/facedet3_bbn.proto
+INFO    : Using weights in model file D:/SDSU/NN Compiler/Lattice NN Compiler Files/BNN_Compiler_Scripts/examples/facedetS_bbn/train/facedet3_bbn.caffemodel
+INFO    : Implementation Options
+INFO    :   framework : Caffe
+INFO    :   device : Ultra Plus
+INFO    :   nnMode : 1
+INFO    :   bnnSignMode : 1
+INFO    :   model_file : D:/SDSU/NN Compiler/Lattice NN Compiler Files/BNN_Compiler_Scripts/examples/facedetS_bbn/train/facedet3_bbn.caffemodel
+INFO    :   network_file : D:/SDSU/NN Compiler/Lattice NN Compiler Files/BNN_Compiler_Scripts/examples/facedetS_bbn/train/facedet3_bbn.proto
+INFO    :   raw_input : 0
+INFO    :   hwcfg_yaml_file : b'C:\\lscc\\ml\\4.0\\work\\0005\\Impl0\\0005.yml'
+INFO    :   lsml_out_file : b'C:\\lscc\\ml\\4.0\\work\\0005\\Impl0\\0005.lscml'
+INFO    :   gpo : 0x04000000
+INFO    :   mean : 0
+INFO    :   scale : 1.0
+INFO    :   sample_rate : 8000
+INFO    :   down_sampling : 1
+INFO    :   num_conv_eng : 1
+INFO    :   num_ebr : 1
+INFO    :   input_ebr : [0]
+INFO    :   output_ebr : [1]
+INFO    :   collapse_layer : 0
+INFO    :   TF_compare_input : D:/SDSU/NN Compiler/Lattice NN Compiler Files/BNN_Compiler_Scripts/examples/data/man.jpg
+INFO    :   ebr_blk_size : 16384
+INFO    :   conv1x1_mode : single
+INFO    :   scratch_blk_size : 4096
+INFO    :   extmem_start_addr : 0
+INFO    :   enable_hw_sim : True
+INFO    :   enable_float_sim : True
+INFO    :   enable_fixed_sim : True
+INFO    :   enable_dualcore : 0
+INFO    :   extmem_off : 0
+INFO    :   load_from_extmem : 0
+INFO    :   store_to_extmem : 0
+INFO    :   borrow_feature : 0
+INFO    :   borrow_factor : 1
+INFO    :   error_analysis : 0
+INFO    :   stored_frac : {}
+INFO    :   dfrac_forced : {}
+INFO    :   output_depth_range : 
+INFO    :   otf_post_processing : 0
+INFO    :   number_of_det_class : 0
+INFO    : Result and log of current implementation 'Impl0' can be found at C:\lscc\ml\4.0\work\0005\Impl0
+WARNING : Building network Model ...
+INFO    : Network: FaceDet_bbn
+INFO    : Input: 
+INFO    : Analyzing model with data D:/SDSU/NN Compiler/Lattice NN Compiler Files/BNN_Compiler_Scripts/examples/data/man.jpg
+INFO    : blob(data): 3x32x32 -> 1 mblks
+INFO    : blob(conv1): 16x16x16 -> 1 mblks
+INFO    : blob(conv2): 32x8x8 -> 1 mblks
+INFO    : blob(conv3): 64x8x8 -> 1 mblks
+INFO    : blob(prob): 2 -> 1 mblks
+INFO    : Succesfully completed input network analysis. This network/configuration can be compiled to generate firmware
+INFO    : Process Finished
+INFO    : 
+LSC_ML_COMPL - A Compiler for Deep Neural Network Inference
+Copyright(c) 2017-2021 Lattice Semiconductor Corporation
+Version: V4.0
+Build: 2021-05-13
+
+
+INFO    : Started compilation of firmware for ML engines
+INFO    : Implementation Options
+INFO    :   framework : Caffe
+INFO    :   device : Ultra Plus
+INFO    :   nnMode : 1
+INFO    :   bnnSignMode : 1
+INFO    :   model_file : D:/SDSU/NN Compiler/Lattice NN Compiler Files/BNN_Compiler_Scripts/examples/facedetS_bbn/train/facedet3_bbn.caffemodel
+INFO    :   network_file : D:/SDSU/NN Compiler/Lattice NN Compiler Files/BNN_Compiler_Scripts/examples/facedetS_bbn/train/facedet3_bbn.proto
+INFO    :   raw_input : 0
+INFO    :   hwcfg_yaml_file : b'C:\\lscc\\ml\\4.0\\work\\0005\\Impl0\\0005.yml'
+INFO    :   lsml_out_file : b'C:\\lscc\\ml\\4.0\\work\\0005\\Impl0\\0005.lscml'
+INFO    :   gpo : 0x04000000
+INFO    :   mean : 0
+INFO    :   scale : 1.0
+INFO    :   sample_rate : 8000
+INFO    :   down_sampling : 1
+INFO    :   num_conv_eng : 1
+INFO    :   num_ebr : 1
+INFO    :   input_ebr : [0]
+INFO    :   output_ebr : [1]
+INFO    :   collapse_layer : 0
+INFO    :   TF_compare_input : D:/SDSU/NN Compiler/Lattice NN Compiler Files/BNN_Compiler_Scripts/examples/data/man.jpg
+INFO    :   ebr_blk_size : 16384
+INFO    :   conv1x1_mode : single
+INFO    :   scratch_blk_size : 4096
+INFO    :   extmem_start_addr : 0
+INFO    :   enable_hw_sim : True
+INFO    :   enable_float_sim : True
+INFO    :   enable_fixed_sim : True
+INFO    :   enable_dualcore : 0
+INFO    :   extmem_off : 0
+INFO    :   load_from_extmem : 0
+INFO    :   store_to_extmem : 0
+INFO    :   borrow_feature : 0
+INFO    :   borrow_factor : 1
+INFO    :   error_analysis : 0
+INFO    :   stored_frac : {}
+INFO    :   dfrac_forced : {}
+INFO    :   output_depth_range : 
+INFO    :   otf_post_processing : 0
+INFO    :   number_of_det_class : 0
+INFO    : Using configuration file C:\lscc\ml\4.0\work\0005\Impl0\0005.yml. Rerun network Analyze step if data has changed
+INFO    : Successfully Scheduled network layer 'data' of type Input
+INFO    : has bias
+INFO    : Successfully Scheduled network layer 'CBSR_conv1_bn1_scale1_qrelu1_pool1' of type CBSR
+INFO    : has bias
+INFO    : Successfully Scheduled network layer 'CBSR_conv2_bn2_scale2_qrelu2_pool2' of type CBSR
+INFO    : has bias
+INFO    : Bypass Pooling
+INFO    : Bypass Pooling
+INFO    : Bypass Pooling
+INFO    : Bypass Pooling
+INFO    : Successfully Scheduled network layer 'CBSR_conv3_bn3_scale3_qrelu3' of type CBSR
+INFO    : Successfully Scheduled network layer 'fc4' of type BinaryInnerProduct
+INFO    : Total cycles: 114,944
+INFO    :     conv: 77,824 (208)
+INFO    :     pool: 1,792 (3)
+INFO    :     fc:   512 (2)
+INFO    :     bpack:34,816 (112)
+INFO    : Binary file exported to C:\lscc\ml\4.0\work\0005\Impl0\0005.bin
+INFO    : Run Simulation or download firmware in the file C:\lscc\ml\4.0\work\0005\Impl0\0005.bin and run on board
+INFO    : Process Finished
+WARNING : Starting Simulation
+INFO    : 
+LSC_ML_COMPL - A Compiler for Deep Neural Network Inference
+Copyright(c) 2017-2021 Lattice Semiconductor Corporation
+Version: V4.0
+Build: 2021-05-13
+
+
+INFO    : Started analysis of input network model.
+INFO    : Implementation Options
+INFO    :   framework : Caffe
+INFO    :   device : Ultra Plus
+INFO    :   nnMode : 1
+INFO    :   bnnSignMode : 1
+INFO    :   model_file : D:/SDSU/NN Compiler/Lattice NN Compiler Files/BNN_Compiler_Scripts/examples/facedetS_bbn/train/facedet3_bbn.caffemodel
+INFO    :   network_file : D:/SDSU/NN Compiler/Lattice NN Compiler Files/BNN_Compiler_Scripts/examples/facedetS_bbn/train/facedet3_bbn.proto
+INFO    :   raw_input : 0
+INFO    :   hwcfg_yaml_file : b'C:\\lscc\\ml\\4.0\\work\\0005\\Impl0\\0005.yml'
+INFO    :   lsml_out_file : b'C:\\lscc\\ml\\4.0\\work\\0005\\Impl0\\0005.lscml'
+INFO    :   gpo : 0x04000000
+INFO    :   mean : 0
+INFO    :   scale : 1.0
+INFO    :   sample_rate : 8000
+INFO    :   down_sampling : 1
+INFO    :   num_conv_eng : 1
+INFO    :   num_ebr : 1
+INFO    :   input_ebr : [0]
+INFO    :   output_ebr : [1]
+INFO    :   collapse_layer : 0
+INFO    :   TF_compare_input : D:/SDSU/NN Compiler/Lattice NN Compiler Files/BNN_Compiler_Scripts/examples/data/man.jpg
+INFO    :   ebr_blk_size : 16384
+INFO    :   conv1x1_mode : single
+INFO    :   scratch_blk_size : 4096
+INFO    :   extmem_start_addr : 0
+INFO    :   enable_hw_sim : True
+INFO    :   enable_float_sim : True
+INFO    :   enable_fixed_sim : True
+INFO    :   enable_dualcore : 0
+INFO    :   extmem_off : 0
+INFO    :   load_from_extmem : 0
+INFO    :   store_to_extmem : 0
+INFO    :   borrow_feature : 0
+INFO    :   borrow_factor : 1
+INFO    :   error_analysis : 0
+INFO    :   stored_frac : {}
+INFO    :   dfrac_forced : {}
+INFO    :   output_depth_range : 
+INFO    :   otf_post_processing : 0
+INFO    :   number_of_det_class : 0
+INFO    : Using previously generated configuration file b'C:\\lscc\\ml\\4.0\\work\\0005\\Impl0\\0005.yml' for simulation. Rerun network Analyze step if data has changed
+INFO    : Started simulation of input network using hw model
+INFO    : Successfully Scheduled network layer 'data' of type Input
+INFO    : has bias
+INFO    : Successfully Scheduled network layer 'CBSR_conv1_bn1_scale1_qrelu1_pool1' of type CBSR
+INFO    : has bias
+INFO    : Successfully Scheduled network layer 'CBSR_conv2_bn2_scale2_qrelu2_pool2' of type CBSR
+INFO    : has bias
+WARNING : threshold exceed 16b, 2.4482230562717696e+16
+INFO    : Bypass Pooling
+INFO    : Bypass Pooling
+INFO    : Bypass Pooling
+INFO    : Bypass Pooling
+INFO    : Successfully Scheduled network layer 'CBSR_conv3_bn3_scale3_qrelu3' of type CBSR
+INFO    : Successfully Scheduled network layer 'fc4' of type BinaryInnerProduct
+INFO    : Total cycles: 114,944
+INFO    :     conv: 77,824 (208)
+INFO    :     pool: 1,792 (3)
+INFO    :     fc:   512 (2)
+INFO    :     bpack:34,816 (112)
+INFO    : 	**** Cycles per layer ****
+INFO    : 	data : 0 cycles
+INFO    : 	CBSR_conv1_bn1_scale1_qrelu1_pool1 : 74880 cycles
+INFO    : 	CBSR_conv2_bn2_scale2_qrelu2_pool2 : 21120 cycles
+INFO    : 	CBSR_conv3_bn3_scale3_qrelu3 : 18432 cycles
+INFO    : 	fc4 : 512 cycles
+INFO    : Simulation result for input: D:/SDSU/NN Compiler/Lattice NN Compiler Files/BNN_Compiler_Scripts/examples/data/man.jpg
+INFO    : 	Expected Value at the output of blob 'prob' : [[ 2.4193711 -6.219383 ]]
+INFO    : Simulation output is stored in C:\lscc\ml\4.0\work\0005\Impl0\0005_man_SimulationResult.npy file.
+INFO    : 	Actual Value at the output of blob 'prob' : [ 2. -6.]
+INFO    : 	******last-blob Mean Absolute Error*****
+INFO    :    Blob_name           MAE     
+INFO    :    prob          0.31937694549560547      
+WARNING : Simulation finished
+INFO    : Process Finished

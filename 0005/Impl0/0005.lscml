@@ -1,0 +1,2188 @@
+# conv: 0
+1fc00000    # global config
+00000000
+10000002    # actmem
+80000000
+8e080480
+00000400
+11000001    # convmem
+40000480
+2a232020
+13800904    # weight
+00010001
+00010001
+00010000
+00010001
+00010068
+13808d04    # weight
+00000000
+00000000
+00010001
+00000001
+00000068
+13808d04    # weight
+00000001
+00000000
+00010000
+00000000
+00000068
+# binarize: 0
+1fc00000    # global config
+00100086
+12000001    # binmem
+50000400
+00000101
+20003400    # run EU
+# conv: 1
+13800904    # weight
+00010001
+00000000
+00010000
+00010000
+00000068
+13808d04    # weight
+00000001
+00010000
+00010001
+00000001
+00000068
+13808d04    # weight
+00000001
+00000001
+00000001
+00010001
+00000068
+# binarize: 1
+1fc00000    # global config
+0001006f
+20003400    # run EU
+# conv: 2
+13800904    # weight
+00010000
+00000001
+00010000
+00000000
+00010068
+13808d04    # weight
+00000001
+00000000
+00000000
+00000000
+00010068
+13808d04    # weight
+00010001
+00010001
+00010001
+00010000
+00000068
+# binarize: 2
+1fc00000    # global config
+0002fffb
+20003400    # run EU
+# conv: 3
+13800904    # weight
+00010001
+00000000
+00010001
+00000001
+00000068
+13808d04    # weight
+00010001
+00010001
+00010001
+00010001
+00010068
+13808d04    # weight
+00000000
+00000000
+00000000
+00000000
+00000068
+# binarize: 3
+1fc00000    # global config
+0003feb6
+20003400    # run EU
+# conv: 4
+13800904    # weight
+00000001
+00010000
+00000000
+00000000
+00000068
+13808d04    # weight
+00010001
+00010001
+00010001
+00010001
+00010068
+13808d04    # weight
+00000000
+00000000
+00010000
+00000001
+00010068
+# binarize: 4
+1fc00000    # global config
+0014ffa9
+20003400    # run EU
+# conv: 5
+13800904    # weight
+00000000
+00000000
+00000001
+00010001
+00010068
+13808d04    # weight
+00010000
+00010001
+00010001
+00010001
+00010068
+13808d04    # weight
+00000000
+00010001
+00010001
+00000000
+00000068
+# binarize: 5
+1fc00000    # global config
+0005f746
+20003400    # run EU
+# conv: 6
+13800904    # weight
+00010001
+00000000
+00000001
+00010000
+00010068
+13808d04    # weight
+00000001
+00000000
+00000001
+00000001
+00010068
+13808d04    # weight
+00010000
+00000001
+00010001
+00010001
+00000068
+# binarize: 6
+1fc00000    # global config
+001600c3
+20003400    # run EU
+# conv: 7
+13800904    # weight
+00000000
+00010000
+00000001
+00000001
+00000068
+13808d04    # weight
+00010000
+00000001
+00000001
+00010001
+00000068
+13808d04    # weight
+00010000
+00000000
+00000001
+00010000
+00000068
+# binarize: 7
+1fc00000    # global config
+00070103
+20003400    # run EU
+# conv: 8
+13800904    # weight
+00010001
+00010001
+00010001
+00000001
+00010068
+13808d04    # weight
+00010001
+00000000
+00000000
+00000000
+00000068
+13808d04    # weight
+00000000
+00000000
+00010001
+00010001
+00000068
+# binarize: 8
+1fc00000    # global config
+0018ffae
+20003400    # run EU
+# conv: 9
+13800904    # weight
+00000001
+00010001
+00010000
+00000000
+00000068
+13808d04    # weight
+00010000
+00010001
+00010001
+00000000
+00000068
+13808d04    # weight
+00010001
+00010001
+00010000
+00000000
+00000068
+# binarize: 9
+1fc00000    # global config
+0009ff94
+20003400    # run EU
+# conv: 10
+13800904    # weight
+00010000
+00010001
+00010000
+00010001
+00000068
+13808d04    # weight
+00000000
+00000000
+00000000
+00000000
+00010068
+13808d04    # weight
+00000000
+00010001
+00010001
+00010001
+00010068
+# binarize: 10
+1fc00000    # global config
+000aff84
+20003400    # run EU
+# conv: 11
+13800904    # weight
+00010001
+00000000
+00000000
+00010001
+00010068
+13808d04    # weight
+00000000
+00010000
+00000000
+00010001
+00010068
+13808d04    # weight
+00000000
+00000001
+00010000
+00010001
+00010068
+# binarize: 11
+1fc00000    # global config
+000b0020
+20003400    # run EU
+# conv: 12
+13800904    # weight
+00010000
+00010000
+00000001
+00010001
+00010068
+13808d04    # weight
+00000000
+00000001
+00010000
+00000000
+00010068
+13808d04    # weight
+00000000
+00000000
+00000001
+00000000
+00000068
+# binarize: 12
+1fc00000    # global config
+001c020a
+20003400    # run EU
+# conv: 13
+13800904    # weight
+00010000
+00000001
+00010001
+00000001
+00000068
+13808d04    # weight
+00000001
+00000001
+00000001
+00000001
+00000068
+13808d04    # weight
+00010001
+00000000
+00010000
+00010001
+00000068
+# binarize: 13
+1fc00000    # global config
+001d0046
+20003400    # run EU
+# conv: 14
+13800904    # weight
+00010000
+00000001
+00000000
+00010001
+00000068
+13808d04    # weight
+00010001
+00010001
+00010000
+00010000
+00000068
+13808d04    # weight
+00010000
+00000001
+00010000
+00010000
+00000068
+# binarize: 14
+1fc00000    # global config
+001effa4
+20003400    # run EU
+# conv: 15
+13800904    # weight
+00000000
+00000001
+00000001
+00010000
+00010068
+13808d04    # weight
+00010001
+00010000
+00000000
+00000000
+00010068
+13808d04    # weight
+00000000
+00000001
+00000001
+00000001
+00010068
+# binarize: 15
+1fc00000    # global config
+001f0113
+20003400    # run EU
+# pooling: 15
+10000002    # actmem
+50000c00
+00104100
+00000100
+12000001    # binmem
+80000480
+00232020
+20001200    # run EU
+# conv: 0
+10000001    # actmem
+80000c00
+4d040140
+11000001    # convmem
+40000140
+1a131010
+13800904    # weight
+40094405
+548dd45f
+5cf77cb3
+4d286ff6
+53ee0028
+# binarize: 0
+1fc00000    # global config
+00100000
+12000001    # binmem
+50000100
+00000101
+20003400    # run EU
+# conv: 1
+13800904    # weight
+e1e3f1ff
+65c6c3ff
+f1ffd592
+d28fc00a
+e4030028
+# binarize: 1
+1fc00000    # global config
+00010004
+20003400    # run EU
+# conv: 2
+13800904    # weight
+f704d235
+b2166ae5
+7a7feac6
+3ca83c84
+1ce80028
+# binarize: 2
+1fc00000    # global config
+0002000c
+20003400    # run EU
+# conv: 3
+13800904    # weight
+fe55ee44
+9e057f57
+7e68b82d
+6ed72c4c
+4a280028
+# binarize: 3
+1fc00000    # global config
+0003ffff
+20003400    # run EU
+# conv: 4
+13800904    # weight
+af4ba169
+ab492fe7
+2eafbe6d
+a57e35d2
+e5d70028
+# binarize: 4
+1fc00000    # global config
+00040013
+20003400    # run EU
+# conv: 5
+13800904    # weight
+d52fe0ff
+63fa5516
+e09fe3fa
+1727c0c7
+e41b0028
+# binarize: 5
+1fc00000    # global config
+00050005
+20003400    # run EU
+# conv: 6
+13800904    # weight
+30f2fe25
+fec7b4aa
+e6c7fea5
+c6eace02
+6e450028
+# binarize: 6
+1fc00000    # global config
+00060010
+20003400    # run EU
+# conv: 7
+13800904    # weight
+1f565d55
+5d14ec5d
+4dfeeff9
+cacacaed
+ce6b0028
+# binarize: 7
+1fc00000    # global config
+0017000e
+20003400    # run EU
+# conv: 8
+13800904    # weight
+e18b42c9
+c1cde283
+608bd063
+fd867387
+56370028
+# binarize: 8
+1fc00000    # global config
+00180005
+20003400    # run EU
+# conv: 9
+13800904    # weight
+a45c101f
+900e1108
+04100017
+e5574514
+55360028
+# binarize: 9
+1fc00000    # global config
+0009ffea
+20003400    # run EU
+# conv: 10
+13800904    # weight
+e4fafcde
+57b6ecda
+d0da5547
+c8c2f0ea
+d1070028
+# binarize: 10
+1fc00000    # global config
+000a0006
+20003400    # run EU
+# conv: 11
+13800904    # weight
+daa896ea
+d6be9eea
+b7c6b6c5
+2154239d
+27950028
+# binarize: 11
+1fc00000    # global config
+001b0000
+20003400    # run EU
+# conv: 12
+13800904    # weight
+0a0129e4
+5ecf7e15
+fc16f6f7
+7e747f9f
+ff0f0028
+# binarize: 12
+1fc00000    # global config
+001cffff
+20003400    # run EU
+# conv: 13
+13800904    # weight
+70dec25e
+963b99d1
+617cd22e
+13f793d3
+f26e0028
+# binarize: 13
+1fc00000    # global config
+001d0001
+20003400    # run EU
+# conv: 14
+13800904    # weight
+91ba41f6
+25aa4518
+11bed17f
+01fa957b
+b4370028
+# binarize: 14
+1fc00000    # global config
+001e000d
+20003400    # run EU
+# conv: 15
+13800904    # weight
+e2fe62d2
+3bd26df8
+5da9cc89
+b513a5b8
+be110028
+# binarize: 15
+1fc00000    # global config
+001ffffe
+20003400    # run EU
+# pooling: 15
+10000002    # actmem
+50000d00
+00104040
+00000040
+12000001    # binmem
+80000140
+00131010
+20001200    # run EU
+# conv: 16
+10000002    # actmem
+80000c00
+4d040140
+00000100
+13800904    # weight
+62668e3b
+9cd163f6
+762e8fbb
+03f7766f
+8c2c0028
+# binarize: 16
+1fc00000    # global config
+00100004
+12000001    # binmem
+50000100
+00000101
+20003400    # run EU
+# conv: 17
+13800904    # weight
+ebc7f35f
+c2d7ed61
+7e610c6a
+14a09509
+14ad0028
+# binarize: 17
+1fc00000    # global config
+0001000a
+20003400    # run EU
+# conv: 18
+13800904    # weight
+0564b127
+f5c7093b
+31459195
+415a8d4c
+9f050028
+# binarize: 18
+1fc00000    # global config
+0012fff8
+20003400    # run EU
+# conv: 19
+13800904    # weight
+6fa19f87
+3690fa77
+de4dfbdf
+7d20ac22
+cdc20028
+# binarize: 19
+1fc00000    # global config
+00030014
+20003400    # run EU
+# conv: 20
+13800904    # weight
+c37e83da
+625e4892
+69fc11ea
+b49581d3
+d0310028
+# binarize: 20
+1fc00000    # global config
+0014ffef
+20003400    # run EU
+# conv: 21
+13800904    # weight
+8899acc1
+2881d9b8
+ad74b8da
+fba7bb2a
+3c250028
+# binarize: 21
+1fc00000    # global config
+00050007
+20003400    # run EU
+# conv: 22
+13800904    # weight
+be8cab84
+abe0ebca
+f2816aec
+56e5b2a5
+bec50028
+# binarize: 22
+1fc00000    # global config
+0016000c
+20003400    # run EU
+# conv: 23
+13800904    # weight
+53f41f35
+51b542a8
+53308368
+16609820
+00b80028
+# binarize: 23
+1fc00000    # global config
+0017fff2
+20003400    # run EU
+# conv: 24
+13800904    # weight
+6f67af65
+4de89c20
+9d21cc20
+02077257
+03d20028
+# binarize: 24
+1fc00000    # global config
+00080000
+20003400    # run EU
+# conv: 25
+13800904    # weight
+a4c52f41
+0e4caf19
+bf0d3f0c
+2fcd0fc9
+2a800028
+# binarize: 25
+1fc00000    # global config
+0009fffc
+20003400    # run EU
+# conv: 26
+13800904    # weight
+cacb0aea
+5a6a5a4f
+8a6d9a28
+0b6a5a4b
+eae80028
+# binarize: 26
+1fc00000    # global config
+000a0019
+20003400    # run EU
+# conv: 27
+13800904    # weight
+afe17e05
+3c007ec7
+de05aaf7
+7e823e26
+ee8a0028
+# binarize: 27
+1fc00000    # global config
+000b000c
+20003400    # run EU
+# conv: 28
+13800904    # weight
+7ffe7fda
+7fb86b3a
+2f3c3b3a
+2b0d27f9
+21700028
+# binarize: 28
+1fc00000    # global config
+000c000a
+20003400    # run EU
+# conv: 29
+13800904    # weight
+8ef19efa
+3f5abea3
+aedbebd6
+8acfbede
+ef6e0028
+# binarize: 29
+1fc00000    # global config
+001d0011
+20003400    # run EU
+# conv: 30
+13800904    # weight
+92de2460
+6f2362d0
+65629627
+41d46402
+9e010028
+# binarize: 30
+1fc00000    # global config
+000efffa
+20003400    # run EU
+# conv: 31
+13800904    # weight
+a05a71fa
+743c31b8
+61bebf08
+615af97c
+fc410028
+# binarize: 31
+1fc00000    # global config
+001f0002
+20003400    # run EU
+# pooling: 31
+10000002    # actmem
+50000d40
+00104040
+00000040
+12000001    # binmem
+80000140
+00131010
+20001200    # run EU
+# conv: 0
+1fc00000    # global config
+005f0002
+10000001    # actmem
+80000d00
+2c820060
+11000001    # convmem
+40000060
+120b0808
+13800904    # weight
+221cf23e
+2da2d014
+f24e54a3
+d21cf8a4
+8c230028
+13808d04    # weight
+a35a0f1a
+7fa56b52
+399b5885
+170a8d1a
+d2c70028
+# binarize: 0
+1fc00000    # global config
+00400002
+12000001    # binmem
+50000040
+00000101
+20003400    # run EU
+# conv: 1
+13800904    # weight
+4a7d91d1
+5bd46896
+e046fabb
+04cb6072
+68940028
+13808d04    # weight
+04d80094
+908002b2
+62a323ab
+70227221
+3a200028
+# binarize: 1
+1fc00000    # global config
+0041fffc
+20003400    # run EU
+# conv: 2
+13800904    # weight
+a55ca3d8
+34f0998d
+fbccb06a
+5bb1d91b
+1c1a0028
+13808d04    # weight
+5c8d5dd5
+9ebd59c8
+59a99a7d
+c560eb39
+2a690028
+# binarize: 2
+1fc00000    # global config
+00520017
+20003400    # run EU
+# conv: 3
+13800904    # weight
+1dbf1d71
+adb2df92
+9de315f6
+1db31381
+01390028
+13808d04    # weight
+768454c5
+340c04ae
+54be20e4
+34805000
+70740028
+# binarize: 3
+1fc00000    # global config
+0043fffd
+20003400    # run EU
+# conv: 4
+13800904    # weight
+ea8ebc35
+6dc064ea
+3adbf9ef
+68430329
+c0040028
+13808d04    # weight
+a47b5bad
+04063ac3
+6555bd92
+50b7d4a1
+e2560028
+# binarize: 4
+1fc00000    # global config
+00540000
+20003400    # run EU
+# conv: 5
+13800904    # weight
+bcd42eb1
+3fb3fa64
+59313793
+c86c1ed1
+2fab0028
+13808d04    # weight
+8b5cbca5
+36e4cb9c
+9d8434e5
+cbdac8cc
+74d10028
+# binarize: 5
+1fc00000    # global config
+0055ffd6
+20003400    # run EU
+# conv: 6
+13800904    # weight
+c126d14e
+d0465905
+13bd179e
+c0dc346e
+e0fc0028
+13808d04    # weight
+e730615b
+e21fd155
+44ad7449
+e9bbc9ff
+4f9f0028
+# binarize: 6
+1fc00000    # global config
+00560002
+20003400    # run EU
+# conv: 7
+13800904    # weight
+e04cca66
+1f23c225
+d8409aa0
+cc6e88b3
+9fb30028
+13808d04    # weight
+8b9a463b
+36a4817e
+114a380a
+9b1ed4c2
+74440028
+# binarize: 7
+1fc00000    # global config
+0047fffc
+20003400    # run EU
+# conv: 8
+13800904    # weight
+d703004f
+714c82bb
+906e0144
+e626908c
+ed440028
+13808d04    # weight
+6b807192
+1bde6ccb
+659aedde
+60a16713
+9f1a0028
+# binarize: 8
+1fc00000    # global config
+0048fffe
+20003400    # run EU
+# conv: 9
+13800904    # weight
+e44cf61f
+7028753c
+71d609e4
+633cd114
+1e910028
+13808d04    # weight
+e99aab1b
+9400573f
+a79b0840
+1b3fb32e
+24400028
+# binarize: 9
+1fc00000    # global config
+00490017
+20003400    # run EU
+# conv: 10
+13800904    # weight
+f85d9fd0
+1fb8e84e
+dae35a93
+ec7f187b
+1fa90028
+13808d04    # weight
+8b3ec0e4
+3664db8a
+507624c4
+cb9e4c40
+34c00028
+# binarize: 10
+1fc00000    # global config
+005afff7
+20003400    # run EU
+# conv: 11
+13800904    # weight
+b256b98f
+9ad3169e
+16d1b79e
+5a72565a
+637a0028
+13808d04    # weight
+a9c0d9f3
+88f10eb4
+32c042b1
+bc8352d1
+628d0028
+# binarize: 11
+1fc00000    # global config
+004bffe9
+20003400    # run EU
+# conv: 12
+13800904    # weight
+425893d0
+1f0302bb
+02d29239
+b436ef76
+cdf60028
+13808d04    # weight
+f449e4c1
+b4897485
+3485e485
+0dff1dd6
+45520028
+# binarize: 12
+1fc00000    # global config
+004c0002
+20003400    # run EU
+# conv: 13
+13800904    # weight
+28133a9b
+a8838a9c
+9a009094
+6f20e25a
+be820028
+13808d04    # weight
+fbb09f60
+fe13e090
+2c902805
+30ec02a5
+88940028
+# binarize: 13
+1fc00000    # global config
+004dfff2
+20003400    # run EU
+# conv: 14
+13800904    # weight
+e46eb256
+038d646e
+820f0800
+f0ce9a14
+9a290028
+13808d04    # weight
+4d1f975f
+a265ebdb
+859f2440
+3f9fb71a
+50420028
+# binarize: 14
+1fc00000    # global config
+004e0001
+20003400    # run EU
+# conv: 15
+13800904    # weight
+02202022
+36a02387
+13991280
+a31bf28a
+ef210028
+13808d04    # weight
+64800641
+02116480
+47516240
+620ca685
+58700028
+# binarize: 15
+1fc00000    # global config
+004f0002
+20003400    # run EU
+10000002    # actmem
+50000d80
+00104040
+00000000
+20001200    # run EU
+# conv: 16
+10000002    # actmem
+80000d00
+2c820060
+00000040
+13800904    # weight
+e45ecc65
+1833ed6b
+ad6f90ab
+63d08633
+e07b0028
+13808d04    # weight
+499bc19b
+7ee9f989
+d91d51c1
+42f15ea5
+c8a50028
+# binarize: 16
+1fc00000    # global config
+00400009
+20003400    # run EU
+# conv: 17
+13800904    # weight
+3b936cb3
+f15e2bb1
+663ae056
+1a9305bb
+ef5e0028
+13808d04    # weight
+94f136b1
+09b72472
+30a08bbb
+1d607dc4
+cbff0028
+# binarize: 17
+1fc00000    # global config
+0051fffc
+20003400    # run EU
+# conv: 18
+13800904    # weight
+0fd333c3
+2dbb1c3b
+11b895bb
+37221700
+38090028
+13808d04    # weight
+1646e689
+27a53605
+9041662f
+36483201
+00120028
+# binarize: 18
+1fc00000    # global config
+0042fff5
+20003400    # run EU
+# conv: 19
+13800904    # weight
+11a23cb8
+19f0ba1d
+a81de01c
+fa8ea51f
+8b2d0028
+13808d04    # weight
+06a77403
+5626170a
+1d073f27
+576e9730
+b7360028
+# binarize: 19
+1fc00000    # global config
+00430005
+20003400    # run EU
+# conv: 20
+13800904    # weight
+694ce82c
+e64ed10e
+9f069c56
+1b819a15
+1d350028
+13808d04    # weight
+2b1be95b
+cb9a2226
+7f92cb92
+36461666
+28520028
+# binarize: 20
+1fc00000    # global config
+0054fffc
+20003400    # run EU
+# conv: 21
+13800904    # weight
+6a9919eb
+9db32718
+3fe31fbb
+e7996e63
+0efb0028
+13808d04    # weight
+aa251fad
+1ce7be25
+beb52cb5
+afb4d82d
+78ad0028
+# binarize: 21
+1fc00000    # global config
+00550010
+20003400    # run EU
+# conv: 22
+13800904    # weight
+7f63ccfb
+8eeb9023
+14409aa2
+6cca9641
+94210028
+13808d04    # weight
+3ed1fec1
+db7570e2
+c072a439
+7a14a400
+8a420028
+# binarize: 22
+1fc00000    # global config
+00460002
+20003400    # run EU
+# conv: 23
+13800904    # weight
+210c246e
+b3afe324
+e46e5a27
+600cce7c
+08230028
+13808d04    # weight
+81dbd99d
+3d0fc91b
+ec3b7c25
+b55bed9b
+51610028
+# binarize: 23
+1fc00000    # global config
+00470009
+20003400    # run EU
+# conv: 24
+13800904    # weight
+2dbc2d10
+ea36240c
+2c8ca98c
+ac87a919
+bd8d0028
+13808d04    # weight
+f636ff26
+f726f976
+e926e926
+e769e954
+e9360028
+# binarize: 24
+1fc00000    # global config
+0058000a
+20003400    # run EU
+# conv: 25
+13800904    # weight
+c04cc014
+e4546d72
+186b246a
+e8ab6c3e
+ecdb0028
+13808d04    # weight
+8a121f92
+a018135e
+128d1388
+d18d2efb
+438b0028
+# binarize: 25
+1fc00000    # global config
+00490002
+20003400    # run EU
+# conv: 26
+13800904    # weight
+d3d7e5fc
+ea50936e
+4c4f4763
+e76e57de
+49de0028
+13808d04    # weight
+af9a8fbe
+ddbd8997
+f4965b7a
+c9996813
+489b0028
+# binarize: 26
+1fc00000    # global config
+005a0004
+20003400    # run EU
+# conv: 27
+13800904    # weight
+75857df3
+62f2b701
+4cf2e356
+d760d47a
+e25c0028
+13808d04    # weight
+147594a4
+7ea5b66e
+8c44e19d
+141948d9
+eb8b0028
+# binarize: 27
+1fc00000    # global config
+004b000f
+20003400    # run EU
+# conv: 28
+13800904    # weight
+e030fef8
+084913fa
+3b796b5b
+52a63e32
+557b0028
+13808d04    # weight
+db763a12
+b6d80ad0
+bf738adb
+a6f636a2
+26c30028
+# binarize: 28
+1fc00000    # global config
+004cffd6
+20003400    # run EU
+# conv: 29
+13800904    # weight
+cdeffd4b
+c96c0dff
+3eef996a
+d6fa4478
+c5ea0028
+13808d04    # weight
+6d9b7f9e
+69ea4e99
+cc9e589d
+09df36c0
+388d0028
+# binarize: 29
+1fc00000    # global config
+005d0003
+20003400    # run EU
+# conv: 30
+13800904    # weight
+38917cda
+14a12059
+47712fc2
+fb7ae6f8
+45fb0028
+13808d04    # weight
+966dd5e5
+e780d475
+70f544e4
+ccd96dfd
+edb50028
+# binarize: 30
+1fc00000    # global config
+005e000e
+20003400    # run EU
+# conv: 31
+13800904    # weight
+1195f9b5
+e6f22991
+795be0e3
+a3848433
+e46e0028
+13808d04    # weight
+1f3e94fc
+98e31772
+80c048eb
+346a3489
+c99b0028
+# binarize: 31
+1fc00000    # global config
+004f0007
+20003400    # run EU
+10000002    # actmem
+50000dc0
+00104040
+00000000
+20001200    # run EU
+# conv: 32
+10000002    # actmem
+80000d00
+2c820060
+00000040
+13800904    # weight
+97a18111
+9c8b95a2
+c6069df5
+c1a5f005
+56310028
+13808d04    # weight
+8408ee91
+0c0e8500
+3d014b2a
+9140004d
+a4230028
+# binarize: 32
+1fc00000    # global config
+0040fffa
+20003400    # run EU
+# conv: 33
+13800904    # weight
+70586479
+2da1e340
+707a87a1
+c274e06c
+40360028
+13808d04    # weight
+a2d626a5
+36a42f5a
+271b36a5
+cb9a7ddb
+340d0028
+# binarize: 33
+1fc00000    # global config
+00410009
+20003400    # run EU
+# conv: 34
+13800904    # weight
+605c2a6c
+4fe1f614
+e0a40eeb
+311ced6c
+4ea30028
+13808d04    # weight
+c99a910f
+52258b1a
+a535f0a5
+1f1a41b2
+74c50028
+# binarize: 34
+1fc00000    # global config
+00420008
+20003400    # run EU
+# conv: 35
+13800904    # weight
+27b3e167
+c06c27b0
+e54ec046
+2781a164
+842c0028
+13808d04    # weight
+34e1cb8a
+c98f4441
+c77fcd1f
+7467d79b
+db2f0028
+# binarize: 35
+1fc00000    # global config
+00430025
+20003400    # run EU
+# conv: 36
+13800904    # weight
+f8469801
+d34c824d
+9b1df904
+c65f1675
+d8dd0028
+13808d04    # weight
+cb3a8d7a
+9bbedfb0
+ce20db3a
+d998edd9
+abbf0028
+# binarize: 36
+1fc00000    # global config
+0054fffd
+20003400    # run EU
+# conv: 37
+13800904    # weight
+ca8dc784
+df564b4b
+894eca55
+98eb9493
+d7110028
+13808d04    # weight
+c9303a34
+d81acfbc
+db5cd938
+fc1cc318
+ffb80028
+# binarize: 37
+1fc00000    # global config
+0055fff4
+20003400    # run EU
+# conv: 38
+13800904    # weight
+13a33fec
+1ffb63c6
+27ed0560
+c3597ff3
+0f600028
+13808d04    # weight
+8fde9b65
+5ee5b99e
+d945f8cd
+addacf8e
+d80d0028
+# binarize: 38
+1fc00000    # global config
+00560006
+20003400    # run EU
+# conv: 39
+13800904    # weight
+90a7bc81
+b043bc98
+b980b8d6
+d59c91dc
+91dc0028
+13808d04    # weight
+dc5dcf73
+8fbcfef8
+af388e9b
+9d9c9f1c
+8f380028
+# binarize: 39
+1fc00000    # global config
+00470001
+20003400    # run EU
+# conv: 40
+13800904    # weight
+f9047cc5
+d74cf213
+daffc3d4
+cafcfad2
+e6c90028
+13808d04    # weight
+db11a9de
+c952f93c
+c953e073
+a91789df
+a9db0028
+# binarize: 40
+1fc00000    # global config
+0058fffc
+20003400    # run EU
+# conv: 41
+13800904    # weight
+e12cba33
+1ab3cc5c
+82e61a89
+e96e0ab6
+19930028
+13808d04    # weight
+c9bf71ad
+36a4db9f
+ccc97642
+c93e780c
+54840028
+# binarize: 41
+1fc00000    # global config
+00490006
+20003400    # run EU
+# conv: 42
+13800904    # weight
+00932812
+30285297
+5908339c
+3da47db5
+b0130028
+13808d04    # weight
+36a026a5
+12212418
+076ca73d
+66850280
+37020028
+# binarize: 42
+1fc00000    # global config
+004a000f
+20003400    # run EU
+# conv: 43
+13800904    # weight
+0defdebb
+bfab1deb
+2dfb7d4b
+4fcaa5ea
+637c0028
+13808d04    # weight
+9c643c65
+1066587d
+50edf9b5
+88357d3d
+6b2d0028
+# binarize: 43
+1fc00000    # global config
+005bffed
+20003400    # run EU
+# conv: 44
+13800904    # weight
+f8d535c3
+1ce3ccff
+5ee63fd0
+dc7eaac2
+1b7b0028
+13808d04    # weight
+8ffeb1e5
+34659bbe
+094436e5
+cdda99cb
+00e10028
+# binarize: 44
+1fc00000    # global config
+005cfff8
+20003400    # run EU
+# conv: 45
+13800904    # weight
+e686e600
+8a83f195
+e297a915
+b9b5ed04
+f91c0028
+13808d04    # weight
+fa203010
+34140124
+1770878a
+8d388f3b
+171e0028
+# binarize: 45
+1fc00000    # global config
+004dfff6
+20003400    # run EU
+# conv: 46
+13800904    # weight
+1c4b4809
+428bbae3
+52d343f2
+13474b40
+1ba20028
+13808d04    # weight
+50a17d74
+d0e992f5
+f8528044
+7ec8b844
+a2f80028
+# binarize: 46
+1fc00000    # global config
+004e0017
+20003400    # run EU
+# conv: 47
+13800904    # weight
+2eb28839
+2bb32397
+8e723ab9
+6f048966
+ae080028
+13808d04    # weight
+5e45a8a4
+0ee16402
+8501a561
+34758b62
+b6660028
+# binarize: 47
+1fc00000    # global config
+004f0000
+20003400    # run EU
+10000002    # actmem
+50000e00
+00104040
+00000000
+20001200    # run EU
+# conv: 48
+10000002    # actmem
+80000d00
+2c820060
+00000040
+13800904    # weight
+2110b7e3
+c4470310
+66f6a55e
+429836d0
+e55c0028
+13808d04    # weight
+146036e9
+c9bb8064
+6af17b3b
+204050e1
+97bb0028
+# binarize: 48
+1fc00000    # global config
+0040000c
+20003400    # run EU
+# conv: 49
+13800904    # weight
+3fb35ddb
+77941fe9
+77d3b74c
+5ff33271
+61540028
+13808d04    # weight
+34a575f4
+73fa70f5
+b8740b15
+40f559fd
+a99f0028
+# binarize: 49
+1fc00000    # global config
+0051ffee
+20003400    # run EU
+# conv: 50
+13800904    # weight
+e86cce4d
+d84dea29
+1eb15b01
+e9179f91
+1b1c0028
+13808d04    # weight
+b0337802
+c302ca24
+76601b64
+ebbc0624
+36660028
+# binarize: 50
+1fc00000    # global config
+0052ffe9
+20003400    # run EU
+# conv: 51
+13800904    # weight
+53b483ee
+e4729bb3
+989d6476
+3791a28c
+ecef0028
+13808d04    # weight
+6442a31e
+cbbb5440
+9c02cbff
+266186b6
+bdbf0028
+# binarize: 51
+1fc00000    # global config
+0053fff7
+20003400    # run EU
+# conv: 52
+13800904    # weight
+3fb30fd2
+e04c3f83
+409db48c
+17b37612
+a45c0028
+13808d04    # weight
+24e4dce0
+cb9b34e5
+933388bb
+76c1ab59
+c9bb0028
+# binarize: 52
+1fc00000    # global config
+0054ffe5
+20003400    # run EU
+# conv: 53
+13800904    # weight
+27726633
+d3731762
+3d0e5764
+574d9790
+a9a60028
+13808d04    # weight
+b7cd7ecf
+7887b05e
+d55f595f
+516fb4cc
+94370028
+# binarize: 53
+1fc00000    # global config
+0055fffd
+20003400    # run EU
+# conv: 54
+13800904    # weight
+d06e0a45
+2bbbcc6e
+b02c1ebb
+c06fee04
+1fbb0028
+13808d04    # weight
+dd9a9749
+1461cb53
+a97e2464
+dbb28f42
+34440028
+# binarize: 54
+1fc00000    # global config
+0056fff0
+20003400    # run EU
+# conv: 55
+13800904    # weight
+a2bd6ba2
+50b9c34d
+9389c11d
+13831411
+559b0028
+13808d04    # weight
+9dd49bb0
+3ede1b72
+19389d3a
+1cd82a90
+a0340028
+# binarize: 55
+1fc00000    # global config
+00470006
+20003400    # run EU
+# conv: 56
+13800904    # weight
+b7a61d3f
+0180a435
+683a0d93
+6951cc70
+c9220028
+13808d04    # weight
+05cfbfef
+e5ef446b
+0ca15c8a
+05ed50f4
+5cec0028
+# binarize: 56
+1fc00000    # global config
+0058001e
+20003400    # run EU
+# conv: 57
+13800904    # weight
+9e61c194
+c9b56a9c
+08ddc935
+3c9dcadd
+c82f0028
+13808d04    # weight
+0660115b
+8f9a1461
+527b9d9b
+34e51beb
+fd9d0028
+# binarize: 57
+1fc00000    # global config
+0049fffd
+20003400    # run EU
+# conv: 58
+13800904    # weight
+d80cc804
+d806f466
+221cf214
+c54fc408
+344c0028
+13808d04    # weight
+a502a51a
+853a993c
+6f48c908
+c8d89c29
+d8590028
+# binarize: 58
+1fc00000    # global config
+005a0027
+20003400    # run EU
+# conv: 59
+13800904    # weight
+064936cf
+23212e2e
+6f261ea6
+a806e91d
+89780028
+13808d04    # weight
+6421f401
+ec23e057
+ec83e227
+d737cf97
+db740028
+# binarize: 59
+1fc00000    # global config
+005bffff
+20003400    # run EU
+# conv: 60
+13800904    # weight
+c699ca8c
+a191d094
+4b935a99
+d69a5f78
+56d60028
+13808d04    # weight
+c61c1845
+832484b8
+84988640
+d5e99a44
+544d0028
+# binarize: 60
+1fc00000    # global config
+004c001c
+20003400    # run EU
+# conv: 61
+13800904    # weight
+a30ce065
+c6a3751c
+e6e400e3
+b195fe54
+8e220028
+13808d04    # weight
+691b369f
+06891f5a
+801b6a87
+1f7e8502
+78c00028
+# binarize: 61
+1fc00000    # global config
+004d0000
+20003400    # run EU
+# conv: 62
+13800904    # weight
+3fa344eb
+e05dbf80
+7723e05d
+1ba1177f
+e1540028
+13808d04    # weight
+54617884
+6bba1675
+2c0f4992
+b0cdb0ad
+4b9b0028
+# binarize: 62
+1fc00000    # global config
+004efffd
+20003400    # run EU
+# conv: 63
+13800904    # weight
+a202b31e
+d06816c6
+36e0bfe3
+36ecd6e6
+96010028
+13808d04    # weight
+f7f7effb
+f767e021
+c801f035
+e133e920
+40150028
+# binarize: 63
+1fc00000    # global config
+005fffff
+20003400    # run EU
+10000002    # actmem
+50000e40
+00104040
+00000000
+20001200    # run EU
+10000001    # actmem
+81000d80
+00104100
+380000ff    # run FC
+a2c2cf33
+b89e80c2
+104aba9e
+7e84b043
+32c41366
+98461a56
+104a184f
+38339010
+3a5ef244
+984a920a
+984a205a
+349b1050
+30428a72
+884eea42
+a45cb04a
+62023846
+a01633b8
+284ef84e
+a8d8b84e
+64a4b08d
+b8babe64
+384629d6
+a0d67044
+b6a22440
+bf5efbe0
+f8cef9ce
+38ca38d4
+f69bb05f
+ac8ee3ef
+b84ef2d7
+3c4238c2
+fafbfcd2
+d2241152
+fd7ce37c
+55204154
+4d505768
+77065d0c
+536c762e
+43687768
+4e774139
+5f0e1f02
+364f256f
+1649076c
+f7645468
+7e5b5260
+374f364f
+234933ce
+d57015c9
+357ba361
+264f334b
+174d274f
+307e1791
+3b3ff335
+b74b2f0e
+23dd37cf
+b7650719
+fa057b53
+b75bb65d
+334a33dd
+5030139c
+357b39e0
+e1393d3d
+315b7ba9
+5130328c
+6e30c533
+cd33c8b2
+8990c930
+7b2b6802
+60a12072
+ad30e130
+a920c131
+3a222811
+e360ad36
+85b1c1b1
+e920e1b1
+7725a910
+23a1ec70
+e591e031
+a134e5b1
+b409a9a0
+f761b1f5
+e511e069
+e525a591
+fb66f994
+ab70adf9
+e5d82249
+e03fa531
+7840b5a2
+bf392ddd
+6c69a579
+a8802370
+3983bdc5
+2fc82bf2
+bd79ffe9
+bdf9fa7f
+7a7efddb
+9da0f6ea
+9ca08f00
+9be08aa0
+a1df2d20
+8da0c9aa
+8d808d80
+1ba085a0
+3d338da0
+1da05fe9
+8d801d80
+1de08da0
+87fb9fe0
+98b07eec
+8ca01bb0
+16a098a0
+033b93e4
+dfa0df78
+9aa1d8b0
+83e59aa0
+82ffc8e3
+d9a042fd
+98a092a4
+92259ee1
+a33f9766
+15a413e9
+9e3542a0
+8a8492a5
+230d9f27
+dda4f972
+dea4d2a0
+88c6badb
+753f93a8
+10000001    # actmem
+41000e80
+00104001
+20000200    # run EU
+10000001    # actmem
+81000d80
+00104100
+380000ff    # run FC
+5d3d30cc
+47757f2d
+efb54575
+817f4fbc
+cd2fac9d
+67bde5a9
+efa5e7b4
+c3c86fef
+c5b10daf
+67a16df1
+67a5dfb5
+cb74efab
+cfb93599
+77a115bd
+5bb74fb5
+9de9c7a9
+5fe98c57
+d7b107a1
+572347a1
+9b5b4f66
+0755018f
+c7b9d6a9
+5f298fbf
+4959dbab
+40b5041b
+07210635
+c735c72f
+09744fb0
+53751c14
+47b10d2c
+c3b9c73d
+05100329
+2ddbeead
+02831c83
+aadfbeab
+b2afa897
+88f9a2f3
+ac9389d1
+bc978897
+b188bec6
+a0f1e0fd
+c9b0d890
+e9b6f893
+089bab97
+81a4ad9f
+c8b0c9b0
+dcb6cc33
+2a8fea36
+ca845c9e
+d9b0ccb4
+e8b2d8b0
+cf81e86e
+c4c00cca
+48b4d0f1
+dc22c830
+489af8e6
+05fa84ac
+48a449a2
+ccb5cc22
+afcfec63
+ca84c61f
+1ec6c2c2
+cea48456
+aecf4d73
+91cf3acc
+324c37cd
+76ef36cf
+84d497fd
+9f5edf0d
+52cf1e4f
+565f3e4e
+c5ddd76e
+1c0f52c9
+7a4e3ece
+16df1e4e
+88da56ef
+5c5e130f
+1aee1fce
+5ecb1a4e
+4bf656df
+081e4e8a
+1aee1f96
+1a5a5aee
+0419066b
+540f5206
+1aa7ddb6
+1f405ace
+873f4add
+4046d222
+93165a86
+57ffdc0f
+c67c423a
+d037d40d
+42860016
+42060500
+85810224
+625f0915
+635f70ff
+641f755f
+5e20d2df
+725f3655
+727f725f
+e45f7a5f
+c2cc725f
+e25fa016
+727fe27f
+e21f725f
+7804601f
+634f8113
+735fe44f
+e95f675f
+fcc46c1b
+205f2087
+655e274f
+7c1a655f
+7d01371c
+265fbd02
+675f6d5b
+6dda611e
+5cc06899
+ea5bec16
+614abd5f
+757b6d5a
+dcf260d8
+225b068d
+215b2d5f
+77394504
+8ac06c57
+10000001    # actmem
+41000e81
+00104001
+20000200    # run EU
+1fc00000    # gloabl config
+80000000
+10000001    # actmem
+80000e80    # start address
+00104002    # length
+11000001    # convmem
+40000002    # length
+2a232020
+20000000    # run EU
+00000000    # finish
