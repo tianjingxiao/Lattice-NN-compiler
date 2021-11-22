@@ -1,0 +1,46 @@
+version: V4.0
+release: '2021-05-13'
+native_network: caffe
+device: ECP5
+ip: Dual_Core_16ENGINE_IP
+framework: Caffe
+project_name: try002
+model_file: D:/SDSU/NN Compiler/Lattice NN Compiler Files/BNN_Compiler_Scripts/examples/facedetS_bbn/train/facedet3_bbn.caffemodel
+model_file.rel: D:/SDSU/NN Compiler/Lattice NN Compiler Files/BNN_Compiler_Scripts/examples/facedetS_bbn/train/facedet3_bbn.caffemodel
+network_file: D:/SDSU/NN Compiler/Lattice NN Compiler Files/BNN_Compiler_Scripts/examples/facedetS_bbn/train/facedet3_bbn.proto
+network_file.rel: D:/SDSU/NN Compiler/Lattice NN Compiler Files/BNN_Compiler_Scripts/examples/facedetS_bbn/train/facedet3_bbn.proto
+image_files: ['D:/SDSU/NN Compiler/Lattice NN Compiler Files/BNN_Compiler_Scripts/man2.jpg']
+image_files.rel: ['D:/SDSU/NN Compiler/Lattice NN Compiler Files/BNN_Compiler_Scripts/man2.jpg']
+impl_options:
+  Impl0:
+    num_conv_eng: 8
+    ebr_blk_size: 16384
+    data_base_address: 251658240
+    num_ebr: 16
+    input_ebr: ''
+    output_ebr: ''
+    extmem_start_addr: 0
+    gpo: '0x04000000'
+    mean: 0
+    scale: 1.0
+    extmem_off: 0
+    enable_dualcore: 0
+    load_from_extmem: 0
+    store_to_extmem: 0
+    borrow_feature: 0
+    borrow_factor: 1
+    error_analysis: 0
+    analyze_process: true
+current_impl: Impl0
+scan_datalayer: false
+project_dir: C:\lscc\ml\4.0\work
+hwcfg_file: try002.yml
+out_file: try002.lscml
+post_processing_str: ''
+nnMode: 1
+bnnSignMode: 1
+enable_hw_sim: true
+enable_fixed_sim: true
+enable_float_sim: true
+enable_analyze_debug: false
+raw_input: 0
